@@ -1,18 +1,20 @@
 const Experience = () => {
   return (
     <div className="bg-Experience text-center pt-5">
-      <h1>Experience</h1>
-      <div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">Bagus sekali!</h4>
+      <h1 className="mb-5">Error 404</h1>
+      <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading text-center">Peringatan!</h4>
+        <br></br>
         <p>
-          Aww ya, Anda berhasil membaca pesan peringatan penting ini. Contoh
-          teks ini akan berjalan sedikit lebih lama sehingga Anda dapat melihat
-          cara kerja spasi dalam peringatan dengan konten semacam ini.
+          Konten ini sedang dalam Proses Pembuatan, dan sedang dipelajari
+          bagaimana menyusun komponen dan elemen agar terlihat lebih rapih
         </p>
         <p class="mb-0">
-          Kapanpun Anda membutuhkannya, pastikan untuk menggunakan utilitas
-          margin untuk menjaga semuanya tetap bagus dan rapi.
+          Belum diketahui kapan akan tayang konten di halaman ini. Harap
+          bersabar.
         </p>
+        <br></br>
+        <h6>Terima Kasih</h6>
       </div>
     </div>
   );
