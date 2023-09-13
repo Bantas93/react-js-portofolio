@@ -11,7 +11,7 @@ const Contact = () => {
     <div className="bg-Contact text-center pt-5">
       <h1>Contact</h1>
       <div className="row justify-content-center p-3 mt-5 ">
-        <div className="list-groups text-start">
+        <div className="list-groups col-md-5 text-start">
           <Link
             to="https://api.whatsapp.com/send?phone=6287780310045&text=Halo,%20saya%20nama_anda,%20saya%20ingin%20bertanya%20kepada%20Anda."
             target="blank"
