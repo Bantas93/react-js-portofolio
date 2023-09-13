@@ -5,6 +5,7 @@ body {
 }
 
 nav {
+  width: auto;
   background-color: #212529;
 }
 
@@ -19,6 +20,7 @@ nav a {
 .bg-Home svg {
   width: 100vh;
 }
+
 .hero-img {
   width: 200px;
   height: 200px;
