@@ -15,17 +15,20 @@ const Navbar = () => {
           Bantas
         </NavLink>
         <button
-          class="navbar-toggler navbar-dark"
+          class="navbar-toggler navbar-dark "
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
+          data-bs-toggle="collapse "
+          data-bs-target="#navbarNavAltMarkup "
           aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavAltMarkup"
+        >
           <div class="navbar-nav">
             <NavLink style={navLinkStyles} to="/" className="m-2 p-1">
               Home
@@ -44,18 +47,18 @@ const Navbar = () => {
       </div>
     </nav>
     // <nav className="d-flex justify-content-center">
-    // <NavLink style={navLinkStyles} to="/" className="m-2 p-1">
-    //   Home
-    // </NavLink>
-    // <NavLink style={navLinkStyles} to="About" className="m-2 p-1">
-    //   About
-    // </NavLink>
-    // <NavLink style={navLinkStyles} to="/Experience" className="m-2 p-1">
-    //   Experience
-    // </NavLink>
-    // <NavLink style={navLinkStyles} to="/Contact" className="m-2 p-1">
-    //   Contact
-    // </NavLink>
+    //   <NavLink style={navLinkStyles} to="/" className="m-2 p-1">
+    //     Home
+    //   </NavLink>
+    //   <NavLink style={navLinkStyles} to="About" className="m-2 p-1">
+    //     About
+    //   </NavLink>
+    //   <NavLink style={navLinkStyles} to="/Experience" className="m-2 p-1">
+    //     Experience
+    //   </NavLink>
+    //   <NavLink style={navLinkStyles} to="/Contact" className="m-2 p-1">
+    //     Contact
+    //   </NavLink>
     // </nav>
   );
 };
