@@ -4,6 +4,7 @@ import satu from "../assets/img/projects (1).jpg";
 const Experience = () => {
   return (
     <div className="bg-Experience text-center pt-5">
+      <h1>Experience</h1>
       <div className="container">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-3 p-2">
