@@ -31,7 +31,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style="width: 18rem;">
-              <img src={satu} class="card-img-top" alt="image" />
+              <img src={dua} class="card-img-top" alt="image" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -49,7 +49,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style="width: 18rem;">
-              <img src={satu} class="card-img-top" alt="image" />
+              <img src={tiga} class="card-img-top" alt="image" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -67,7 +67,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style="width: 18rem;">
-              <img src={satu} class="card-img-top" alt="image" />
+              <img src={empat} class="card-img-top" alt="image" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -85,7 +85,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style="width: 18rem;">
-              <img src={satu} class="card-img-top" alt="image" />
+              <img src={lima} class="card-img-top" alt="image" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
