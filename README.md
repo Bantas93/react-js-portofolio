@@ -6,7 +6,7 @@ Selamat datang di portofolio pribadi saya, sebuah proyek yang dikembangkan mengg
 
 Saya adalah seorang pengembang perangkat lunak dengan minat khusus dalam pengembangan web. Portofolio ini adalah wadah untuk menunjukkan keterampilan, proyek-proyek, dan perjalanan saya dalam dunia pemrograman.
 
-![Gambar Tampilan Halaman Utama](./assets/testimoni/review.jpg)
+![Teks Alt](./assets/testimoni/review.jpg)
 ![Review](./assets/testimoni/review.jpg)
 
 ## Fitur Utama
