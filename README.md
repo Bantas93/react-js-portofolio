@@ -6,7 +6,8 @@ Selamat datang di portofolio pribadi saya, sebuah proyek yang dikembangkan mengg
 
 Saya adalah seorang pengembang perangkat lunak dengan minat khusus dalam pengembangan web. Portofolio ini adalah wadah untuk menunjukkan keterampilan, proyek-proyek, dan perjalanan saya dalam dunia pemrograman.
 
-![Teks Alt](https://github.com/Bantas93/portofolio-react-js/blob/master/src/assets/testimoni/review.png?raw=true>)
+![Teks Alt](./assets/testimoni/review.jpg?raw=true)
+![Review](./assets/testimoni/review.jpg)
 
 ## Fitur Utama
 
