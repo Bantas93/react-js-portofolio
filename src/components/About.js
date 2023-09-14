@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="container-fluid bg-About text-center pt-5">
       <h1>About</h1>
-      <div className="container p-3 mt-3 ">
+      <div className="container p-3 mt-3">
         <div className="row">
           <div className="list-groups col-md-8 text-start p-4">
             <p className="text-center m-3">

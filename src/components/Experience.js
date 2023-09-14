@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div className="bg-Experience text-center pt-5">
       <h1>Experience</h1>
-      <div className="container">
+      <div className="container p-3 mt-3">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-3 p-2">
             <div class="card" style={{ width: "18rem" }}>
