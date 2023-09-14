@@ -18,6 +18,11 @@ nav a {
   background-color: #edf1fd1d;
 }
 
+.hov-e:hover {
+  border-radius: 5%;
+  background-color: #00000034;
+}
+
 .bg-Home {
   background-color: #212529;
 }

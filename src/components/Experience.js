@@ -1,109 +1,31 @@
-import { Link } from "react-router-dom";
-import satu from "../assets/img/projects (1).jpg";
-import dua from "../assets/img/projects (2).jpg";
-import tiga from "../assets/img/projects (3).jpg";
-import empat from "../assets/img/projects (4).jpg";
-import lima from "../assets/img/projects (5).jpg";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Experience = () => {
+  const navLinkStyles = ({ isActive }) => {
+    return {
+      color: isActive ? "black" : "black",
+      textDecoration: isActive ? "none" : "none",
+      opacity: isActive ? "100%" : "75%",
+      fontWeight: isActive ? "750" : "",
+    };
+  };
   return (
-    <div className="bg-Experience text-center pt-5">
-      <h1>Experience</h1>
-      <div className="container p-3 mt-3">
-        <div className="row justify-content-center align-items-center">
-          <div className="col-md-3 p-2">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={satu} class="card-img-top" alt="xxx" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <Link
-                  to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                  class="btn btn-primary"
-                >
-                  Go somewhere
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 p-2">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={dua} class="card-img-top" alt="xxx" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <Link
-                  to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                  class="btn btn-primary"
-                >
-                  Go somewhere
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 p-2">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={tiga} class="card-img-top" alt="xxx" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <Link
-                  to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                  class="btn btn-primary"
-                >
-                  Go somewhere
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 p-2">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={empat} class="card-img-top" alt="xxx" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <Link
-                  to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                  class="btn btn-primary"
-                >
-                  Go somewhere
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-3 p-2">
-            <div class="card" style={{ width: "18rem" }}>
-              <img src={lima} class="card-img-top" alt="xxx" />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <Link
-                  to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                  class="btn btn-primary"
-                >
-                  Go somewhere
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <h1 className="mb-5">Error 404</h1>
+    <>
+      <div className="bg-Experience text-center pt-5">
+        <h1>Experience</h1>
+        <NavLink
+          to="NonProgram"
+          className="m-2 p-1 hov-e"
+          style={navLinkStyles}
+        >
+          none Program
+        </NavLink>
+        <NavLink to="Program" className="m-2 p-1 hov-e" style={navLinkStyles}>
+          Program
+        </NavLink>
+        <Outlet />
+
+        {/* <h1 className="mb-5">Error 404</h1>
       <div class="alert alert-danger" role="alert">
         <h4 class="alert-heading text-center">Peringatan!</h4>
         <br></br>
@@ -118,7 +40,8 @@ const Experience = () => {
         <br></br>
         <h6>Terima Kasih</h6>
       </div> */}
-    </div>
+      </div>
+    </>
   );
 };
 

@@ -40,7 +40,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               style={navLinkStyles}
-              to="/Experience"
+              to="/Experience/NonProgram"
               className="ms-2 me-2 p-2 hov"
             >
               Experience
