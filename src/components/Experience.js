@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import satu from "../assets/img/projects (1).jpg";
+import dua from "../assets/img/projects (2).jpg";
+import tiga from "../assets/img/projects (3).jpg";
+import empat from "../assets/img/projects (4).jpg";
+import lima from "../assets/img/projects (5).jpg";
 
 const Experience = () => {
   return (
@@ -31,7 +35,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style={{ width: "18rem" }}>
-              <img src={satu} class="card-img-top" alt="aaa" />
+              <img src={dua} class="card-img-top" alt="aaa" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -53,7 +57,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style={{ width: "18rem" }}>
-              <img src={satu} class="card-img-top" alt="aaa" />
+              <img src={tiga} class="card-img-top" alt="aaa" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -75,7 +79,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style={{ width: "18rem" }}>
-              <img src={satu} class="card-img-top" alt="aaa" />
+              <img src={empat} class="card-img-top" alt="aaa" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -97,7 +101,7 @@ const Experience = () => {
           </div>
           <div className="col-md-3 p-2">
             <div class="card" style={{ width: "18rem" }}>
-              <img src={satu} class="card-img-top" alt="aaa" />
+              <img src={lima} class="card-img-top" alt="aaa" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
