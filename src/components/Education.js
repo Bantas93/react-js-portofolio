@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-const Experience = () => {
+const Education = () => {
   const navLinkStyles = ({ isActive }) => {
     return {
       color: isActive ? "black" : "black",
@@ -12,16 +12,16 @@ const Experience = () => {
   return (
     <>
       <div className="bg-Experience text-center pt-5">
-        <h1>Experience</h1>
+        <h1>Education</h1>
         <NavLink
-          to="/NonProgram"
+          to="/NonFormal"
           className="m-2 p-1 hov-e"
           style={navLinkStyles}
         >
-          none Program
+          nonFormal
         </NavLink>
-        <NavLink to="/Program" className="m-2 p-1 hov-e" style={navLinkStyles}>
-          Program
+        <NavLink to="/Formal" className="m-2 p-1 hov-e" style={navLinkStyles}>
+          Formal
         </NavLink>
         <Outlet />
 
@@ -45,4 +45,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

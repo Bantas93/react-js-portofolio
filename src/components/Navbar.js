@@ -6,7 +6,7 @@ const Navbar = () => {
       color: isActive ? "white" : "white",
       textDecoration: isActive ? "none" : "",
       opacity: isActive ? "85%" : "50%",
-      fontWeight: isActive ? "750" : "",
+      fontWeight: isActive ? "bold" : "",
     };
   };
   return (
@@ -44,6 +44,13 @@ const Navbar = () => {
               className="ms-2 me-2 p-2 hov"
             >
               Experience
+            </NavLink>
+            <NavLink
+              style={navLinkStyles}
+              to="/Education/Formal"
+              className="ms-2 me-2 p-2 hov"
+            >
+              Education
             </NavLink>
             <NavLink
               style={navLinkStyles}

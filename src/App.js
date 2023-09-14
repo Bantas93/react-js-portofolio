@@ -6,6 +6,9 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import NonProgram from "./components/NonProgram";
 import Program from "./components/Program";
+import Education from "./components/Education";
+import NonFormal from "./components/NonFormal";
+import Formal from "./components/Formal";
 
 function App() {
   return (
@@ -23,6 +26,10 @@ function App() {
               element={<NonProgram />}
             ></Route>
             <Route path="/Experience/Program" element={<Program />}></Route>
+          </Route>
+          <Route path="/Education" element={<Education />}>
+            <Route path="/Education/NonFormal" element={<NonFormal />}></Route>
+            <Route path="/Education/Formal" element={<Formal />}></Route>
           </Route>
         </Routes>
       </>
