@@ -14,13 +14,17 @@ const Experience = () => {
       <div className="bg-Experience text-center pt-5">
         <h1>Experience</h1>
         <NavLink
-          to="/NonProgram"
+          to="/Experience/NonProgram"
           className="m-2 p-1 hov-e"
           style={navLinkStyles}
         >
           none Program
         </NavLink>
-        <NavLink to="/Program" className="m-2 p-1 hov-e" style={navLinkStyles}>
+        <NavLink
+          to="/Experience/Program"
+          className="m-2 p-1 hov-e"
+          style={navLinkStyles}
+        >
           Program
         </NavLink>
         <Outlet />

@@ -14,13 +14,17 @@ const Education = () => {
       <div className="bg-Experience text-center pt-5">
         <h1>Education</h1>
         <NavLink
-          to="/NonFormal"
+          to="/Education/NonFormal"
           className="m-2 p-1 hov-e"
           style={navLinkStyles}
         >
           nonFormal
         </NavLink>
-        <NavLink to="/Formal" className="m-2 p-1 hov-e" style={navLinkStyles}>
+        <NavLink
+          to="/Education/Formal"
+          className="m-2 p-1 hov-e"
+          style={navLinkStyles}
+        >
           Formal
         </NavLink>
         <Outlet />
