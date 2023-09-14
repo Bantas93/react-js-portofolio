@@ -18,7 +18,7 @@ const Experience = () => {
           className="m-2 p-1 hov-e"
           style={navLinkStyles}
         >
-          none Program
+          nonProgram
         </NavLink>
         <NavLink
           to="/Experience/Program"
