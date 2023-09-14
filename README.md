@@ -1,72 +1,51 @@
-# Getting Started with Create React App
+# Portofolio Personal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di portofolio pribadi saya, sebuah proyek yang dikembangkan menggunakan React.js dengan dukungan dari React-Bootstrap dan Bootstrap. Di sini, saya telah menggabungkan teknologi modern dengan desain yang elegan untuk mempresentasikan pengalaman dan proyek-proyek saya.
 
-## Available Scripts
+## Tentang Saya
 
-In the project directory, you can run:
+Saya adalah seorang pengembang perangkat lunak dengan minat khusus dalam pengembangan web. Portofolio ini adalah wadah untuk menunjukkan keterampilan, proyek-proyek, dan perjalanan saya dalam dunia pemrograman.
 
-### `npm start`
+## Fitur Utama
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home**: Temukan informasi pribadi saya dan navigasikan proyek-proyek utama.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **About**: Baca lebih lanjut tentang latar belakang, minat, dan visi saya dalam dunia pemrograman.
 
-### `npm test`
+- **Experience**: Telusuri pengalaman dan proyek yang pernah saya kerjakan.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Education**: Lihat latar belakang pendidikan saya dan kursus yang telah saya selesaikan.
 
-### `npm run build`
+- **Contact**: Hubungi saya jika Anda memiliki pertanyaan atau ingin berkolaborasi.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cara Menjalankan Proyek Ini
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Pastikan anda sudah menginstall gitbash di komputer anda, bila belum, install dulu di https://git-scm.com/downloads
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone repositori ini ke komputer Anda.
 
-### `npm run eject`
+git clone https://github.com/Bantas93/portofolio-react-js.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Masuk ke direktori proyek.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+cd portofolio-react-js
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install dependensi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm install react-bootstrap bootstrap react-router-dom
 
-## Learn More
+4. Jalankan proyek.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Buka browser dan kunjungi `http://localhost:3000` untuk melihat portofolio Anda.
 
-### Code Splitting
+## Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Jika Anda ingin berkontribusi pada proyek ini atau melaporkan masalah, silakan buka [Issues](https://github.com/Bantas93/portofolio-react-js/issues) atau kirimkan [Pull Request](https://github.com/Bantas93/portofolio-react-js/pulls).
 
-### Analyzing the Bundle Size
+## Terima Kasih
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Terima kasih telah mengunjungi portofolio saya. Saya berharap Anda menikmati eksplorasi ini dan menemukan informasi yang berguna. Jika Anda memiliki pertanyaan atau ingin berbicara lebih lanjut, jangan ragu untuk menghubungi saya.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# portofolio-react-js
+Happy coding!
