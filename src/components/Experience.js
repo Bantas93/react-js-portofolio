@@ -12,8 +12,8 @@ const Experience = () => {
       <div className="container p-3 mt-3">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-3 p-2">
-            <div class="card" style="width: 18rem;">
-              <img src={satu} class="card-img-top" alt="image" />
+            <div class="card" style={{ width: "18rem" }}>
+              <img src={satu} class="card-img-top" alt="xxx" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -30,8 +30,8 @@ const Experience = () => {
             </div>
           </div>
           <div className="col-md-3 p-2">
-            <div class="card" style="width: 18rem;">
-              <img src={dua} class="card-img-top" alt="image" />
+            <div class="card" style={{ width: "18rem" }}>
+              <img src={dua} class="card-img-top" alt="xxx" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -48,8 +48,8 @@ const Experience = () => {
             </div>
           </div>
           <div className="col-md-3 p-2">
-            <div class="card" style="width: 18rem;">
-              <img src={tiga} class="card-img-top" alt="image" />
+            <div class="card" style={{ width: "18rem" }}>
+              <img src={tiga} class="card-img-top" alt="xxx" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -66,8 +66,8 @@ const Experience = () => {
             </div>
           </div>
           <div className="col-md-3 p-2">
-            <div class="card" style="width: 18rem;">
-              <img src={empat} class="card-img-top" alt="image" />
+            <div class="card" style={{ width: "18rem" }}>
+              <img src={empat} class="card-img-top" alt="xxx" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
@@ -84,8 +84,8 @@ const Experience = () => {
             </div>
           </div>
           <div className="col-md-3 p-2">
-            <div class="card" style="width: 18rem;">
-              <img src={lima} class="card-img-top" alt="image" />
+            <div class="card" style={{ width: "18rem" }}>
+              <img src={lima} class="card-img-top" alt="xxx" />
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">
