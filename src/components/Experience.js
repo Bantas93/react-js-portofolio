@@ -3,10 +3,12 @@ import { NavLink, Outlet } from "react-router-dom";
 const Experience = () => {
   const navLinkStyles = ({ isActive }) => {
     return {
-      color: isActive ? "black" : "black",
+      color: isActive ? "white" : "black",
       textDecoration: isActive ? "none" : "none",
-      opacity: isActive ? "100%" : "75%",
+      opacity: isActive ? "90%" : "75%",
       fontWeight: isActive ? "bold" : "",
+      backgroundColor: isActive ? "#212529" : "",
+      borderRadius: isActive ? "5%" : "",
     };
   };
   return (

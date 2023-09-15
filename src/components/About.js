@@ -7,11 +7,11 @@ import height from "./../assets/img/height.png";
 
 const About = () => {
   return (
-    <div className="container-fluid bg-About text-center pt-5">
+    <div className="container-fluid bg-About text-center pt-5 text-white-50">
       <h1>About</h1>
       <div className="container p-3 mt-3">
         <div className="row">
-          <div className="list-groups col-md-8 text-start p-4">
+          <div className="list-groups col-md-7 text-start pb-5 d-flex justify-content-center align-items-center">
             <p className="text-center m-3">
               Halo, saya seorang programmer pemula yang sangat tertarik dengan
               dunia pemrograman. Saya berfokus pada pengembangan web, dan saya

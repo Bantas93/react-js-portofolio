@@ -27,6 +27,10 @@ nav a {
   background-color: #212529;
 }
 
+.bg-About {
+  height: 100vh;
+  background-color: #212529;
+}
 .hero-img {
   width: 200px;
   height: 200px;

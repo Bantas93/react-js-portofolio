@@ -3,15 +3,17 @@ import { NavLink, Outlet } from "react-router-dom";
 const Education = () => {
   const navLinkStyles = ({ isActive }) => {
     return {
-      color: isActive ? "black" : "black",
+      color: isActive ? "white" : "black",
       textDecoration: isActive ? "none" : "none",
-      opacity: isActive ? "100%" : "75%",
+      opacity: isActive ? "90%" : "75%",
       fontWeight: isActive ? "bold" : "",
+      backgroundColor: isActive ? "#212529" : "",
+      borderRadius: isActive ? "5%" : "",
     };
   };
   return (
     <>
-      <div className="bg-Experience text-center pt-5">
+      <div className="bg-Education text-center pt-5">
         <h1>Education</h1>
         <NavLink
           to="/Education/NonFormal"

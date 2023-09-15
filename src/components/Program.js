@@ -7,10 +7,9 @@ import lima from "../assets/img/projects (5).jpg";
 
 const Program = () => {
   return (
-    <div className="container d-flex justify-content-center p-3 mt-3 ">
+    <div className="container-row d-flex justify-content-center align-items-around p-3 mt-3 ">
       <div className="container-fluid row justify-content-center m-2">
-        {" "}
-        <div className="col-md-3 p-2">
+        <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
             <img src={satu} class="card-img-top" alt="xxx" />
             <div class="card-body">
@@ -25,7 +24,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 p-2">
+        <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
             <img src={dua} class="card-img-top" alt="xxx" />
             <div class="card-body">
@@ -40,7 +39,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 p-2">
+        <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
             <img src={tiga} class="card-img-top" alt="xxx" />
             <div class="card-body">
@@ -55,7 +54,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 p-2">
+        <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
             <img src={empat} class="card-img-top" alt="xxx" />
             <div class="card-body">
@@ -70,7 +69,7 @@ const Program = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-3 p-2">
+        <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
             <img src={lima} class="card-img-top" alt="xxx" />
             <div class="card-body">
