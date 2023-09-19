@@ -31,8 +31,68 @@ nav a {
   height: 100vh;
   background-color: #212529;
 }
+
+.bg-Education {
+  background-color: #212529;
+}
+
+.bg-Experience {
+  background-color: #212529;
+}
+
+.bg-Contact {
+  height: 100vh;
+  background-color: #212529;
+}
+
+.bg-nonformal {
+  height: 100vh;
+  background-color: #212529;
+}
+
+.bg-nonprogram {
+  height: 100vh;
+  background-color: #212529;
+}
+
 .hero-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.list-group-item {
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: hsla(0, 0%, 100%, 0.5);
+  background-color: #212529;
+}
+
+.list-group-item-action:hover {
+  background-color: #383f47;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: #212529;
+}
+
+.accordion-button {
+  color: hsla(0, 0%, 100%, 0.5);
+  background-color: #212529;
+}
+
+.accordion-body {
+  background-color: #212529;
+}
+
+.accordion-button::after {
+  background-color: hsla(0, 0%, 100%, 0.5);
+  opacity: 50%;
+}
+
+.accordion-button:not(.collapsed) {
+  color: hsla(0, 0%, 100%, 0.5);
+  background-color: #212529;
 }

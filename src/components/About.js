@@ -40,8 +40,14 @@ const About = () => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe> */}
           </div>
-          <div className="list-groups col-md-4 text-start ">
-            <Link to="#" class="list-group-item list-group-item-action">
+          <div
+            className="list-groups col-md-4 text-start"
+            style={{ borderRadius: "50px" }}
+          >
+            <Link
+              to="#"
+              class="list-group-item list-group-item-action bg-dark text-white-50"
+            >
               <img
                 src={idn}
                 width="20"
@@ -53,7 +59,7 @@ const About = () => {
             <Link
               to="https://bsi.today/"
               target="blank"
-              class="list-group-item list-group-item-action"
+              class="list-group-item list-group-item-action bg-dark text-white-50"
             >
               <img
                 src={ubsi}
@@ -63,7 +69,10 @@ const About = () => {
               ></img>
               Universitas Bina Sarana Informatika
             </Link>
-            <Link to="#" class="list-group-item list-group-item-action">
+            <Link
+              to="#"
+              class="list-group-item list-group-item-action bg-dark text-white-50"
+            >
               <img
                 src={male}
                 width="20"
@@ -72,7 +81,10 @@ const About = () => {
               ></img>
               Male
             </Link>
-            <Link to="#" class="list-group-item list-group-item-action">
+            <Link
+              to="#"
+              class="list-group-item list-group-item-action bg-dark text-white-50"
+            >
               <img
                 src={weight}
                 width="20"
@@ -81,7 +93,10 @@ const About = () => {
               ></img>
               74 Cm
             </Link>
-            <Link to="#" class="list-group-item list-group-item-action">
+            <Link
+              to="#"
+              class="list-group-item list-group-item-action bg-dark text-white-50"
+            >
               <img
                 src={height}
                 width="20"

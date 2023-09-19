@@ -7,114 +7,103 @@
 
 const NonFormal = () => {
   return (
-    <div className="container d-flex justify-content-center p-3 mt-3 ">
-      <div class="alert alert-danger" role="alert">
-        <h1 className="mb-5">Error 404</h1>
-        <h4 class="alert-heading text-center">Peringatan!</h4>
-        <br></br>
-        <p>
-          Konten ini sedang dalam Proses Pembuatan, dan sedang dipelajari
-          bagaimana menyusun komponen dan elemen agar terlihat lebih rapih
-        </p>
-        <p class="mb-0">
-          Belum diketahui kapan akan tayang konten di halaman ini. Harap
-          bersabar.
-        </p>
-        <br></br>
-        <h6>Terima Kasih</h6>
+    <div className="container-fluid p-3 mt-3 bg-nonformal">
+      <div className="row d-flex justify-content-center">
+        <div className="col-md-5 ">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+              >
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It
+                  is shown by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the{" "}
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the{" "}
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+              >
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It
+                  is hidden by default, until the collapse plugin adds the
+                  appropriate classes that we use to style each element. These
+                  classes control the overall appearance, as well as the showing
+                  and hiding via CSS transitions. You can modify any of this
+                  with custom CSS or overriding our default variables. It's also
+                  worth noting that just about any HTML can go within the{" "}
+                  <code>.accordion-body</code>, though the transition does limit
+                  overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      {/* <div className="container-fluid row justify-content-center m-2">
-        <div className="col-md-3 p-2">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={satu} class="card-img-top" alt="xxx" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <Link
-                to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                class="btn btn-primary"
-              >
-                Go somewhere
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 p-2">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={dua} class="card-img-top" alt="xxx" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <Link
-                to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                class="btn btn-primary"
-              >
-                Go somewhere
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 p-2">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={tiga} class="card-img-top" alt="xxx" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <Link
-                to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                class="btn btn-primary"
-              >
-                Go somewhere
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 p-2">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={empat} class="card-img-top" alt="xxx" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <Link
-                to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                class="btn btn-primary"
-              >
-                Go somewhere
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-3 p-2">
-          <div class="card" style={{ width: "18rem" }}>
-            <img src={lima} class="card-img-top" alt="xxx" />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
-              <Link
-                to="https://portofolio-react-js-git-master-bantas93.vercel.app/"
-                class="btn btn-primary"
-              >
-                Go somewhere
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };
