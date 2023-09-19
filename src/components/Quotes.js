@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react";
+import dotenv from "dotenv";
+dotenv.config();
+
 const apiKey = process.env.REACT_APP_API_KEY;
 const category = "success";
 
