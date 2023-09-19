@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-const apiKey = secrets.REACT_APP_API_KEY;
+const apiKey = process.env.REACT_APP_API_KEY;
 const category = "success";
-// process.env.REACT_APP_API_KEY;
+
 const Quotes = () => {
   const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
   const [author, setAuthor] = useState();
@@ -28,11 +28,11 @@ const Quotes = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        const quoteData = data[0] || {};
-        setQuote(quoteData.quote || "");
-        setAuthor(quoteData.author || "");
-        // setQuote(data[0].quote);
-        // setAuthor(data[0].author);
+        // const quoteData = data[0] || {};
+        // setQuote(quoteData.quote || "");
+        // setAuthor(quoteData.author || "");
+        setQuote(data[0].quote);
+        setAuthor(data[0].author);
         console.log(data);
       })
       .catch((error) => {
