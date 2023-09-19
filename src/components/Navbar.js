@@ -54,6 +54,13 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               style={navLinkStyles}
+              to="/Quotes"
+              className="ms-2 me-2 p-2 hov"
+            >
+              Quotes
+            </NavLink>
+            <NavLink
+              style={navLinkStyles}
               to="/Contact"
               className="ms-2 me-2 p-2 hov"
             >
