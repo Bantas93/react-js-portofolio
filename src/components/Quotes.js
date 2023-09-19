@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-const apiKey = process.env.REACT_APP_API_KEY;
-console.log(apiKey);
+
 const Quotes = () => {
+  const apiKey = process.env.REACT_APP_API_KEY;
   const category = "success";
   const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
   const [author, setAuthor] = useState("");
@@ -30,7 +30,6 @@ const Quotes = () => {
       .then((data) => {
         setQuote(data[0].quote);
         setAuthor(data[0].author);
-        console.log(quote);
       })
       .catch((error) => {
         console.error("Terjadi kesalahan:", error);
