@@ -121,7 +121,7 @@ const Program = () => {
               />
               <br />
               <Link
-                to="https://app-booking-git-master-bantas93.vercel.app/AppBooking"
+                to="https://app-booking-git-master-bantas93.vercel.app/"
                 class="btn btn-secondary"
                 target="blank"
               >
@@ -198,7 +198,7 @@ const Program = () => {
               />
               <br />
               <Link
-                to="https://app-booking-git-master-bantas93.vercel.app/AppBooking"
+                to="https://app-booking-git-master-bantas93.vercel.app/"
                 class="btn btn-secondary"
                 target="blank"
               >
