@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-import satu from "../assets/img/projects (1).jpg";
-import dua from "../assets/img/projects (2).jpg";
+import satu from "../assets/img/app.jpg";
+import dua from "../assets/img/app1.jpg";
 import tiga from "../assets/img/projects (3).jpg";
 import empat from "../assets/img/projects (4).jpg";
 import lima from "../assets/img/projects (5).jpg";
 import react_icon from "../assets/img/react_icon.png";
 import js_icon from "../assets/img/js_icon.png";
 import html_icon from "../assets/img/html_icon.png";
+import css_icon from "../assets/img/css_icon.png";
 
 const Program = () => {
   return (
@@ -55,12 +56,29 @@ const Program = () => {
           <div class="card" style={{ width: "18rem" }}>
             <img src={dua} class="card-img-top" alt="xxx" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Portfolio V.0</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Saya membuat aplikasi Portfolio Static 1 Halaman.
               </p>
-              <Link to="#" class="btn btn-secondary">
+              <br />
+              <img
+                src={css_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+
+              <Link
+                to="https://portofolio-git-master-bantas93.vercel.app/"
+                class="btn btn-secondary"
+              >
                 Go somewhere
               </Link>
             </div>

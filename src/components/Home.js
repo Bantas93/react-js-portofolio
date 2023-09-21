@@ -1,4 +1,4 @@
-import pp from "../assets/img/pp.jpg";
+import pp from "../assets/img/pp1.jpg";
 import { Image } from "react-bootstrap";
 const Home = () => {
   return (
