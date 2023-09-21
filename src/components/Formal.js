@@ -7,24 +7,28 @@ const Formal = () => {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapseOne"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
                 >
-                  SMP PGRI 117 KARANG TENGAH
+                  UNIVERSITAS BINA SARANA INFORMATIKA{" "}
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
                   <strong>CILEDUG, KOTA TANGERANG</strong>
                   <br />
-                  <strong>2005 - 2008</strong>
+                  <strong>2021 - Masih Aktif</strong>
+                  <br />
+                  <strong>INFORMASI TEKNOLOGI DAN INFORMATIKA</strong>
+                  <br />
+                  Jurusan : <strong>SISTEM INFORMASI</strong>
                 </div>
               </div>
             </div>
@@ -57,28 +61,24 @@ const Formal = () => {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
                 >
-                  UNIVERSITAS BINA SARANA INFORMATIKA{" "}
+                  SMP PGRI 117 KARANG TENGAH
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
-                class="accordion-collapse collapse"
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
               >
                 <div class="accordion-body">
                   <strong>CILEDUG, KOTA TANGERANG</strong>
                   <br />
-                  <strong>2021 - Masih Aktif</strong>
-                  <br />
-                  <strong>INFORMASI TEKNOLOGI DAN INFORMATIKA</strong>
-                  <br />
-                  Jurusan : <strong>SISTEM INFORMASI</strong>
+                  <strong>2005 - 2008</strong>
                 </div>
               </div>
             </div>
