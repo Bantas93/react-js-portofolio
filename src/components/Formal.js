@@ -73,7 +73,7 @@ const Formal = () => {
               </h2>
               <div
                 id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
                   <strong>CILEDUG, KOTA TANGERANG</strong>
