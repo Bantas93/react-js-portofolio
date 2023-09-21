@@ -26,7 +26,7 @@ const NonProgram = () => {
               </h2>
               <div
                 id="panelsStayOpen-collapseOne"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
                   <strong>PT. Matahari Tbk.</strong>
