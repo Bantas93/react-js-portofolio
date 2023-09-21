@@ -5,6 +5,8 @@ import tiga from "../assets/img/projects (3).jpg";
 import empat from "../assets/img/projects (4).jpg";
 import lima from "../assets/img/projects (5).jpg";
 import react_icon from "../assets/img/react_icon.png";
+import js_icon from "../assets/img/js_icon.png";
+import html_icon from "../assets/img/html_icon.png";
 
 const Program = () => {
   return (
@@ -18,13 +20,33 @@ const Program = () => {
               <p class="card-text">
                 Aplikasi ini berisi kumpulan latihan saya belajar React Js.
               </p>
-              {react_icon}
+              <br />
+              <img
+                src={js_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={react_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+
               <Link
                 to="https://exercise-tau.vercel.app/"
                 target="blank"
                 class="btn btn-secondary"
               >
-                Go somewhere
+                Visit !
               </Link>
             </div>
           </div>
