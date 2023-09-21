@@ -4,6 +4,7 @@ import dua from "../assets/img/projects (2).jpg";
 import tiga from "../assets/img/projects (3).jpg";
 import empat from "../assets/img/projects (4).jpg";
 import lima from "../assets/img/projects (5).jpg";
+import react_icon from "../assets/img/react_icon.png";
 
 const Program = () => {
   return (
@@ -17,6 +18,7 @@ const Program = () => {
               <p class="card-text">
                 Aplikasi ini berisi kumpulan latihan saya belajar React Js.
               </p>
+              {react_icon}
               <Link
                 to="https://exercise-tau.vercel.app/"
                 target="blank"
