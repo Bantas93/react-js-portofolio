@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import satu from "../assets/img/app.jpg";
 import dua from "../assets/img/app1.jpg";
-import tiga from "../assets/img/projects (3).jpg";
-import empat from "../assets/img/projects (4).jpg";
-import lima from "../assets/img/projects (5).jpg";
+import tiga from "../assets/img/app2.jpg";
+// import empat from "../assets/img/projects (4).jpg";
+// import lima from "../assets/img/projects (5).jpg";
 import react_icon from "../assets/img/react_icon.png";
 import js_icon from "../assets/img/js_icon.png";
 import html_icon from "../assets/img/html_icon.png";
 import css_icon from "../assets/img/css_icon.png";
+import bootstrap_icon from "../assets/img/bootstrap_icon.png";
 
 const Program = () => {
   return (
@@ -73,13 +74,20 @@ const Program = () => {
                 alt="xxx"
                 style={{ height: "30px", width: "30px" }}
               />
+              <img
+                src={bootstrap_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
               <br />
 
               <Link
                 to="https://portofolio-git-master-bantas93.vercel.app/"
                 class="btn btn-secondary"
+                target="blank"
               >
-                Go somewhere
+                Visit !
               </Link>
             </div>
           </div>
@@ -88,43 +96,152 @@ const Program = () => {
           <div class="card" style={{ width: "18rem" }}>
             <img src={tiga} class="card-img-top" alt="xxx" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">App Booking</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Saya membuat Aplikasi Booking Studio Foto Static Tanpa Database.
               </p>
-              <Link to="#" class="btn btn-secondary">
-                Go somewhere
+              <br />
+              <img
+                src={react_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={js_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+              <Link
+                to="https://app-booking-git-master-bantas93.vercel.app/AppBooking"
+                class="btn btn-secondary"
+                target="blank"
+              >
+                Visit !
               </Link>
             </div>
           </div>
         </div>
         <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
-            <img src={empat} class="card-img-top" alt="xxx" />
+            <img src={dua} class="card-img-top" alt="xxx" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Portfolio V.0</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Saya membuat aplikasi Portfolio Static 1 Halaman.
               </p>
-              <Link to="#" class="btn btn-secondary">
-                Go somewhere
+              <br />
+              <img
+                src={css_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={bootstrap_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+
+              <Link
+                to="https://portofolio-git-master-bantas93.vercel.app/"
+                class="btn btn-secondary"
+                target="blank"
+              >
+                Visit !
               </Link>
             </div>
           </div>
         </div>
         <div className="col-md-3 p-2 d-flex justify-content-center">
           <div class="card" style={{ width: "18rem" }}>
-            <img src={lima} class="card-img-top" alt="xxx" />
+            <img src={tiga} class="card-img-top" alt="xxx" />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">App Booking</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Saya membuat Aplikasi Booking Studio Foto Static Tanpa Database.
               </p>
-              <Link to="#" class="btn btn-secondary">
-                Go somewhere
+              <br />
+              <img
+                src={react_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={js_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+              <Link
+                to="https://app-booking-git-master-bantas93.vercel.app/AppBooking"
+                class="btn btn-secondary"
+                target="blank"
+              >
+                Visit !
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 p-2 d-flex justify-content-center">
+          <div class="card" style={{ width: "18rem" }}>
+            <img src={satu} class="card-img-top" alt="xxx" />
+            <div class="card-body">
+              <h5 class="card-title">App Exercise</h5>
+              <p class="card-text">
+                Aplikasi ini berisi kumpulan latihan saya belajar React Js.
+              </p>
+              <br />
+              <img
+                src={js_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={react_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <img
+                src={html_icon}
+                class="card-img-top mb-3"
+                alt="xxx"
+                style={{ height: "30px", width: "30px" }}
+              />
+              <br />
+
+              <Link
+                to="https://exercise-tau.vercel.app/"
+                target="blank"
+                class="btn btn-secondary"
+              >
+                Visit !
               </Link>
             </div>
           </div>
