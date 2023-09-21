@@ -21,7 +21,7 @@ const NonProgram = () => {
                   aria-expanded="true"
                   aria-controls="panelsStayOpen-collapseOne"
                 >
-                  Accordion Item #1
+                  Sales Promotion Boy (SPB)
                 </button>
               </h2>
               <div
@@ -29,15 +29,11 @@ const NonProgram = () => {
                 class="accordion-collapse collapse show"
               >
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It
-                  is shown by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <strong>PT. Matahari Tbk.</strong>
+                  <br />
+                  <strong>Juli 2011 - Januari 2012</strong>
+                  <br />
+                  Dept. Store
                 </div>
               </div>
             </div>
@@ -51,7 +47,7 @@ const NonProgram = () => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseTwo"
                 >
-                  Accordion Item #2
+                  Sales Assistant (S.A.)
                 </button>
               </h2>
               <div
@@ -59,15 +55,11 @@ const NonProgram = () => {
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <strong>PT. DC Comics Superheroes Indonesia</strong>
+                  <br />
+                  <strong>Januari 2012 - November 2013</strong>
+                  <br />
+                  Showroom
                 </div>
               </div>
             </div>
@@ -81,7 +73,7 @@ const NonProgram = () => {
                   aria-expanded="false"
                   aria-controls="panelsStayOpen-collapseThree"
                 >
-                  Accordion Item #3
+                  Editor & Fotografer
                 </button>
               </h2>
               <div
@@ -89,15 +81,11 @@ const NonProgram = () => {
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It
-                  is hidden by default, until the collapse plugin adds the
-                  appropriate classes that we use to style each element. These
-                  classes control the overall appearance, as well as the showing
-                  and hiding via CSS transitions. You can modify any of this
-                  with custom CSS or overriding our default variables. It's also
-                  worth noting that just about any HTML can go within the{" "}
-                  <code>.accordion-body</code>, though the transition does limit
-                  overflow.
+                  <strong>PT. Citra Kreativa Inovasi</strong>
+                  <br />
+                  <strong>November 2013 - Juli 2021</strong>
+                  <br />
+                  Outlet
                 </div>
               </div>
             </div>

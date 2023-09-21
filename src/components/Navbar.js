@@ -40,7 +40,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               style={navLinkStyles}
-              to="/Experience/NonProgram"
+              to="/Experience/Program"
               className="ms-2 me-2 p-2 hov"
             >
               Experience
@@ -52,13 +52,13 @@ const Navbar = () => {
             >
               Education
             </NavLink>
-            <NavLink
+            {/* <NavLink
               style={navLinkStyles}
               to="/Quotes"
               className="ms-2 me-2 p-2 hov"
             >
               Quotes
-            </NavLink>
+            </NavLink> */}
             <NavLink
               style={navLinkStyles}
               to="/Contact"

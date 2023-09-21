@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
-import dotenv from "dotenv";
+// import dotenv from "dotenv";
 
 const apiKey = process.env.REACT_APP_API_KEY;
 const category = "success";
 
 const Quotes = () => {
   const apiUrl = "https://api.api-ninjas.com/v1/quotes?category=" + category;
-  const [author, setAuthor] = useState();
-  const [quote, setQuote] = useState();
+  const [author, setAuthor] = useState("");
+  const [quote, setQuote] = useState("");
   useEffect(() => {
-    dotenv.config();
     fetchData();
 
     const intervalId = setInterval(() => {
