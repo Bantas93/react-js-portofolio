@@ -31,7 +31,7 @@ const NonProgram = () => {
                 <div class="accordion-body">
                   <strong>PT. Citra Kreativa Inovasi</strong>
                   <br />
-                  <strong>November 2013 - Juli 2021</strong>
+                  <strong>November 2013 - Agustus 2021</strong>
                   <br />
                   Outlet
                 </div>
