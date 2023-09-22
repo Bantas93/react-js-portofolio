@@ -14,26 +14,26 @@ const NonProgram = () => {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseOne"
-                  aria-expanded="true"
-                  aria-controls="panelsStayOpen-collapseOne"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
                 >
-                  Sales Promotion Boy (SPB)
+                  Editor & Fotografer
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseOne"
+                id="panelsStayOpen-collapseThree"
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>PT. Matahari Tbk.</strong>
+                  <strong>PT. Citra Kreativa Inovasi</strong>
                   <br />
-                  <strong>Juli 2011 - Januari 2012</strong>
+                  <strong>November 2013 - Juli 2021</strong>
                   <br />
-                  Dept. Store
+                  Outlet
                 </div>
               </div>
             </div>
@@ -66,26 +66,26 @@ const NonProgram = () => {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button"
                   type="button"
                   data-bs-toggle="collapse"
-                  data-bs-target="#panelsStayOpen-collapseThree"
-                  aria-expanded="false"
-                  aria-controls="panelsStayOpen-collapseThree"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
                 >
-                  Editor & Fotografer
+                  Sales Promotion Boy (SPB)
                 </button>
               </h2>
               <div
-                id="panelsStayOpen-collapseThree"
+                id="panelsStayOpen-collapseOne"
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>PT. Citra Kreativa Inovasi</strong>
+                  <strong>PT. Matahari Tbk.</strong>
                   <br />
-                  <strong>November 2013 - Juli 2021</strong>
+                  <strong>Juli 2011 - Januari 2012</strong>
                   <br />
-                  Outlet
+                  Dept. Store
                 </div>
               </div>
             </div>
