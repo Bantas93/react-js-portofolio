@@ -22,9 +22,9 @@ const Formal = () => {
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>CILEDUG, KOTA TANGERANG</strong>
-                  <br />
                   <strong>2021 - Masih Aktif</strong>
+                  <br />
+                  <strong>CILEDUG, JAKARTA SELATAN</strong>
                   <br />
                   <strong>INFORMASI TEKNOLOGI DAN INFORMATIKA</strong>
                   <br />
@@ -50,9 +50,9 @@ const Formal = () => {
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>CILEDUG, KOTA TANGERANG</strong>
-                  <br />
                   <strong>2008 - 2011</strong>
+                  <br />
+                  <strong>CILEDUG, KOTA TANGERANG</strong>
                   <br />
                   Jurusan : <strong>IPA</strong>
                 </div>
@@ -76,9 +76,9 @@ const Formal = () => {
                 class="accordion-collapse collapse"
               >
                 <div class="accordion-body">
-                  <strong>CILEDUG, KOTA TANGERANG</strong>
-                  <br />
                   <strong>2005 - 2008</strong>
+                  <br />
+                  <strong>CILEDUG, KOTA TANGERANG</strong>
                 </div>
               </div>
             </div>
